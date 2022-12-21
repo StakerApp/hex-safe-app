@@ -1,0 +1,18 @@
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+  background: white;
+}
+
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  background-color: rgb(230, 230, 210);
+  border: 10px dashed rgb(183, 0, 0);
+  box-shadow: 24;
+  padding: 4vh 5vw;
+  text-align: center;
+}
