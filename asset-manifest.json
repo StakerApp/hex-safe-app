@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hex-safe-app/static/css/main.cc0c47b5.css",
-    "main.js": "/hex-safe-app/static/js/main.29450dcf.js",
+    "main.js": "/hex-safe-app/static/js/main.7f1bda7b.js",
     "static/media/hexLogo.png": "/hex-safe-app/static/media/hexLogo.5d18b296e014b38b2e4d.png",
     "index.html": "/hex-safe-app/index.html",
     "main.cc0c47b5.css.map": "/hex-safe-app/static/css/main.cc0c47b5.css.map",
-    "main.29450dcf.js.map": "/hex-safe-app/static/js/main.29450dcf.js.map"
+    "main.7f1bda7b.js.map": "/hex-safe-app/static/js/main.7f1bda7b.js.map"
   },
   "entrypoints": [
     "static/css/main.cc0c47b5.css",
-    "static/js/main.29450dcf.js"
+    "static/js/main.7f1bda7b.js"
   ]
 }
