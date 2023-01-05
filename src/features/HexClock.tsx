@@ -31,7 +31,7 @@ export const HexClock = () => {
     const updateBlockTime = async () => {
         try {
             const block = await provider.getBlock('latest');
-            const newBlockTime = DateTime.fromMillis(block.timestamp * 1000);
+            const newBlockTime = DateTime.fromMillis(block.timestamp * 1000, { zone: 'utc' });
             setBlockTime(newBlockTime);
             setCountDownTimerString(timeTillMidnightUTC(newBlockTime).toFormat('hh\'h\':mm\'m\''));
             setHexDay(dateToHexDay(newBlockTime));
